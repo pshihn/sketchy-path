@@ -1,0 +1,34 @@
+{
+  "name": "sketchy-path",
+  "version": "0.1.0",
+  "description": "Generate sketchy hand-drawn versions of SVG paths",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --build tsconfig.json -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/sketchy-path.git"
+  },
+  "keywords": [
+    "sketchy",
+    "hand-darwn"
+  ],
+  "author": "Preet Shihn (https://shihn.ca/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/sketchy-path/issues"
+  },
+  "homepage": "https://github.com/pshihn/sketchy-path#readme",
+  "dependencies": {
+    "jsdom": "^15.2.0",
+    "roughjs": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^12.7.12",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
