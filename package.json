@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/pshihn/sketchy-path#readme",
   "dependencies": {
-    "jsdom": "^15.2.0",
+    "jsdom": "^16.5.0",
     "roughjs": "^3.1.0"
   },
   "devDependencies": {
